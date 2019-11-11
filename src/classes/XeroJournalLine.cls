@@ -15,6 +15,6 @@ public class XeroJournalLine {
     public String TaxAmount {get; set;}   // Total tax on a journal line
     public String TaxType {get; set;}   // see TaxTypes
     public String TaxName {get; set;}   // see TaxRates
-    public XeroTrackingCategory TrackingCategories[] {get; set;}    // Array: see Tracking
-
+    public List<XeroTrackingCategory> TrackingCategories[] {get; set;}
+	
 }

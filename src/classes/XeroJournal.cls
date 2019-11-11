@@ -13,6 +13,6 @@ public class XeroJournal {
                                           // Note: not returned when calling an individual journal by JournalID or JournalNumber.
     public String SourceType {get; set;}    // The journal source type. The type of transaction that created the journal.
                                             // Note: not returned when calling an individual journal by JournalID or JournalNumber.
-    public XeroJournalLine JournalLines[] {get; set;}    // Array: See JournalLines
+    public List<XeroJournalLine> JournalLines[] {get;set;}    // Array: See JournalLines
 
 }
